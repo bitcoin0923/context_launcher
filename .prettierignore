@@ -1,0 +1,14 @@
+.idea
+.vscode
+.fleet
+.bundle
+node_modules
+
+README.md
+
+package.json
+package-lock.json
+
+android
+
+coverage/

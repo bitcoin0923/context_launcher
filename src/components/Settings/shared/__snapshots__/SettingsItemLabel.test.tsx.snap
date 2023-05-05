@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsItemLabel /> Tests should render correctly and match snapshot - required and optional props 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    pointerEvents="box-none"
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "padding": 10,
+          },
+          {
+            "flex": 1,
+          },
+        ]
+      }
+      testID="wrapper"
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#808080",
+            },
+            {
+              "color": "#000",
+            },
+          ]
+        }
+        testID="title"
+      >
+        An item label
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#ccc",
+          }
+        }
+      >
+        An item description
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`<SettingsItemLabel /> Tests should render correctly and match snapshot - required props 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    pointerEvents="box-none"
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "padding": 10,
+          },
+          undefined,
+        ]
+      }
+      testID="wrapper"
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#808080",
+            },
+            undefined,
+          ]
+        }
+        testID="title"
+      >
+        An item label
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
